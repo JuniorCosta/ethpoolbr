@@ -1,0 +1,59 @@
+#headingSection{
+	background-color:#7b8b98;
+	padding:30px;
+	padding-left:20px;
+
+	position:relative;
+	border:1px solid #8b9ba7;
+	border-bottom:none;
+}
+
+#faqSection{
+	background:url('../images/faq_bg.jpg') repeat-y #fff;
+	padding:20px 90px 60px 60px;
+	border:1px solid white;
+	text-shadow:1px 1px 0 white;
+}
+
+h1{
+	color:#fff;
+	font-size:26px;
+	font-weight:normal;
+}
+
+
+/* Definition Lists */
+
+dt{
+	color:#8F9AA3;
+	font-size:16px;
+	margin-top:30px;
+	padding-left:25px;
+	position:relative;
+	cursor:pointer;
+	border:1px solid transparent;
+}
+
+dt:hover{ color:#5f6a73;}
+
+dt .icon{
+	background:url('../images/bullets.png') no-repeat;
+	height:12px;
+	left:0;
+	position:absolute;
+	top:11px;
+	width:12px;
+}
+
+dt.opened .icon{ background-position:left bottom;}
+
+dd{
+	font-size:12px;
+	color:#717f89;
+	line-height:1.5;
+	padding:20px 0 0 25px;
+	width:580px;
+
+}
+
+
